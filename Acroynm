@@ -5,7 +5,7 @@ int main()
 {
 char str[100],*ptr,i,len;
 printf("Enter any string\n");
-gets(str);
+scanf("%[^\n]",str);
 len=strlen(str);
 ptr=str;
 printf("%c",*(ptr+0));
